@@ -1,0 +1,7 @@
+Feature: User Login System
+The application is an e-commerce platform. We need a robust login system.
+- Users should be able to log in with a valid email and password.
+- If they use an invalid password 3 times, their account should be locked out for 15 minutes.
+- The login page should have a 'Forgot Password' link that redirects to '/forgot-password'.
+- Once logged in successfully, the user should be redirected to the '/dashboard'.
+- We also need to support "Login with Google" via OAuth.
