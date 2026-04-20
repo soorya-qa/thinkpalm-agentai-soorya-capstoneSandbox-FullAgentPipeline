@@ -14,3 +14,18 @@ This project is an AI-powered test automation assistant that:
 - Generates BDD/Gherkin test cases
 - Creates Playwright automation scripts
 - Identifies coverage gaps
+
+Tools Used :
+- Python
+- Gemini/OpenAI API
+- Streamlit
+- JIRA REST API
+
+How to run :
+pip install -r requirements.txt
+streamlit run src/ui/app.py
+
+Observations:
+AI significantly reduces manual test case effort
+Coverage gap analysis improves test completeness
+Agent-based design improves modularity and scalability
